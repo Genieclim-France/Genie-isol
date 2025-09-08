@@ -1,6 +1,6 @@
 "use client";
 
-import { BlurFade } from "@/components/blur-fade";
+import { BlurFade } from "../animation/blur-fade";
 import { useState, useEffect } from "react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 

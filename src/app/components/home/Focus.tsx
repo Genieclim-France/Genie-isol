@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import panneausolaire from "@/../public/panneausolaire.png";
+import panneausolaire from "../../../public/panneausolaire.png";
 import FocusButton from "./FocusButton";
 
 export default function Focus() {
