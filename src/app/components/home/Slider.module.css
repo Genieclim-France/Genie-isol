@@ -1,0 +1,46 @@
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Styles pour les flèches de navigation */
+.navigationButton :global(.swiper-button-next),
+.navigationButton :global(.swiper-button-prev) {
+  color: theme("colors.primary") !important;
+}
+
+/* Style pour la barre de progression */
+.progressBar
+  :global(.swiper-pagination-progressbar .swiper-pagination-progressbar-fill) {
+  background: theme("colors.primary") !important;
+}
+
+.progressBar :global(.swiper-pagination-progressbar) {
+  top: auto !important;
+  bottom: 0 !important;
+  position: absolute !important;
+}
+
+.slide {
+  @apply lg:h-[90%] lg:w-[45rem] lg:p-10 bg-secondary/80 rounded-3xl m-6 lg:ml-40 2xl:ml-80 2xl:w-[60rem] p-6;
+}
+
+.slideTitle {
+  @apply text-white text-xl lg:text-2xl font-bold uppercase font-emOne;
+}
+
+.slideText {
+  @apply text-white pt-4 lg:pt-8 lg:text-lg font-kollektif;
+}
+
+.slideButton {
+  @apply btn uppercase bg-primary text-white px-8 rounded-full mt-4 lg:mt-10 hover:bg-primary/80 font-emOne border-none;
+}
