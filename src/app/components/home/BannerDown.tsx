@@ -4,7 +4,7 @@ function BannerDown() {
   return (
     <section className="flex flex-col lg:flex-row lg:bg-[url('/bg-bannerdown-dsktp.webp')] bg-[url('/bg-bannerdown-mobile.webp')] bg-cover bg-center bg-no-repeat">
       <div className="lg:w-1/2 container text-center lg:text-left xl:mx-0 p-8 lg:px-20 xl:px-28 lg:py-12 xl:py-20 2xl:p-28 2xl:px-80">
-        <h2 className="text-white text-2xl lg:text-4xl xl:text-6xl lg:leading-tight xl:leading-tight uppercase font-bold mb-8 lg:mb-0">
+        <h2 className="text-white text-2xl lg:text-4xl xl:text-4xl lg:leading-tight xl:leading-tight uppercase font-bold mb-8 lg:mb-0">
           <span className="[text-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)]">
             Engagez-vous dans la
           </span>{" "}

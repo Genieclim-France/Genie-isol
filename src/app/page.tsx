@@ -16,7 +16,7 @@ export default function Home() {
       <BannerDown />
       <Slider />
       <FormDevis />
-      <section className="flex flex-col p-8 lg:px-32 py-20">
+      <section className="flex flex-col p-8 lg:px-32 py-20 2xl:px-80">
         <h3 className="text-2xl font-bold after:content-[''] after:block after:w-10 after:h-[0.35rem] after:bg-primary after:mt-4">
           Un accompagnement 100% personnalisée à chaque projet
         </h3>
