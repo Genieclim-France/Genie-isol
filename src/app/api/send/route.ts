@@ -42,8 +42,7 @@ export async function POST(request: Request) {
 
     const emailData = {
       sender: {
-        email:
-          process.env.VERIFIED_SENDER_EMAIL || "a.janiak@genieclimfrance.fr",
+        email: process.env.SENDER_EMAIL || "a.janiak@genieclimfrance.fr",
         name: "GENIE ISOL FRANCE",
       },
       to: [
