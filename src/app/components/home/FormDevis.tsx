@@ -61,7 +61,7 @@ function FormDevis() {
     >
       <div className="lg:bg-secondary lg:rounded-3xl lg:w-2/3 lg:p-12">
         <h3 className="text-2xl font-emOne text-tertiary text-start lg:pl-12">
-          Demander un devis
+          Demander un devis / Demande de sous-traitance
         </h3>
         <form
           className="flex flex-col gap-4 p-6 items-center lg:px-12"

@@ -217,6 +217,13 @@ function Accordion({ sections }: AccordionProps) {
                       </p>
                     ))}
                   </div>
+                  <div className="pt-10">
+                    <Image
+                      src={sections[openSection].image}
+                      alt={sections[openSection].title}
+                      className="w-80 object-cover rounded-xl"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

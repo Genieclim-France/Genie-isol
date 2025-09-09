@@ -8,20 +8,18 @@ function Hero() {
           <h1 className="text-white text-2xl lg:text-5xl xl:text-6xl lg:leading-tight xl:leading-tight uppercase font-bold mb-8">
             <span className="[text-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)]">
               Réalisez
-            </span>{" "}
-            <span className="text-primary bg-tertiary rounded-full px-2 lg:px-5 text-nowrap [box-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)]">
-              jusqu'à 70%
+            </span>
+            <span className="ml-4 text-primary bg-tertiary rounded-full px-2 lg:px-5 text-nowrap [box-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)]">
+              votre isolation
             </span>{" "}
             <span className="[text-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)]">
-              d'économies sur vos factures de chauffage
+              des combles perdus pour
             </span>
-          </h1>
-          <p className="[text-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)] text-white text-2xl font-bold uppercase lg:pr-28 xl:mt-8">
-            Bénéficiez de toute votre installation pour{" "}
-            <span className="[box-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)] text-primary bg-tertiary rounded-lg px-3 py-1 lg:pt-3 text-4xl lg:text-8xl font-emOne inline-block align-middle ml-2 mt-1">
+            <br />
+            <span className="[box-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)] text-primary bg-tertiary rounded-lg px-3 py-1 lg:pt-3 text-4xl lg:text-8xl font-emOne inline-block align-middle mt-2">
               1€*
             </span>
-          </p>
+          </h1>
           <div className="flex flex-col pt-8 lg:flex-row lg:items-center lg:mt-10 xl:mt-16 font-emOne lg:gap-8 xl:gap-10">
             <Link
               href="/#contact-form"
@@ -30,7 +28,7 @@ function Hero() {
               DEMANDEZ VOTRE DEVIS
             </Link>
           </div>
-          <p className="text-white text-xs mt-8 font-kollektif pt-10">
+          <p className="text-white text-xs mt-8 font-kollektif pt-40">
             * Eligibilité et restant dû à charge défini selon les revenus du
             foyer et les caractéristiques du bien concerné.
           </p>

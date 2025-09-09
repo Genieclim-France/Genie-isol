@@ -3,6 +3,8 @@ import ProgressBar from "./ProgressBar";
 import Accordion from "./Accordion";
 import isolationImage from "../../../../public/isolimg.webp";
 import isolationImage2 from "../../../../public/thumb1.png";
+import isolationImage3 from "../../../../public/thumb2.jpeg";
+import isolationImage4 from "../../../../public/thumb3.jpeg";
 
 export default function IsolationPage() {
   return (
@@ -11,13 +13,9 @@ export default function IsolationPage() {
         <div id="nos-solutions" className="flex flex-col flex-1 lg:gap-8">
           <article className="px-8 lg:px-0 pt-32 lg:pt-0">
             <h2 className="text-xl 2xl:text-2xl font-emOne uppercase after:content-[''] after:block after:w-16 after:h-1 after:bg-primary after:mt-4">
-              Les isolation : Combles, plancher bas, ITE
+              Comment isoler mon habitation :<br />
+              <span className="font-bold">Combles, plancher bas, ITE</span>
             </h2>
-            <p className="text-lg 2xl:text-xl lg:text-base mt-8">
-              Inclus dans votre programme, nous vous proposons d'isoler vos
-              combles et vos planchers bas, pour une rénovation énergétique
-              complète de votre maison.
-            </p>
             <p className="text-lg 2xl:text-xl lg:text-base mt-4">
               Notre équipe de professionnels choisit des produits alliant
               confort et écologie pour une isolation saine et efficace.
@@ -62,16 +60,18 @@ export default function IsolationPage() {
             content: [
               "L'isolation des planchers bas est essentielle pour limiter les pertes de chaleur par le sol, représentant jusqu'à 10 % des déperditions énergétiques d'un logement.",
               "Une isolation efficace de vos planchers améliore votre confort thermique en toute saison et permet de réaliser des économies d'énergie importantes. Cette solution élimine la sensation désagréable de sol froid et prévient les remontées d'humidité.",
-              "Chez Genie Clim France, nous vous proposons des techniques d'isolation performantes adaptées à votre habitation, garantissant un confort durable et une réduction de vos factures.",
+              "Chez Genie Isol France, nous vous proposons des techniques d'isolation performantes adaptées à votre habitation, garantissant un confort durable et une réduction de vos factures.",
             ],
+            image: isolationImage3,
           },
           {
             title: "ITE (isolation thermique extérieure)",
             content: [
               "L'Isolation Thermique par l'Extérieur (ITE) consiste à envelopper votre habitation d'une couche isolante pour réduire significativement les pertes de chaleur.",
               "Cette solution présente plusieurs avantages majeurs : elle améliore la performance énergétique, élimine les ponts thermiques, assure un meilleur confort quelle que soit la saison et augmente la valeur de votre bien immobilier.",
-              "L'ITE permet également de moderniser l'aspect de votre façade. Avec Genie Clim France, profitez d'une isolation personnalisée, mise en œuvre par des experts, pour un habitat plus économique et respectueux de l'environnement.",
+              "L'ITE permet également de moderniser l'aspect de votre façade. Avec Genie Isol France, profitez d'une isolation personnalisée, mise en œuvre par des experts, pour un habitat plus économique et respectueux de l'environnement.",
             ],
+            image: isolationImage4,
           },
         ]}
       />

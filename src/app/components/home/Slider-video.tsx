@@ -8,13 +8,24 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // Import des images statiques
-import video1 from "../../../../public/video-section/video-1.png";
-import video2 from "../../../../public/video-section/video-2.png";
-import video3 from "../../../../public/video-section/video-3.png";
-import video4 from "../../../../public/video-section/video-4.png";
-import video5 from "../../../../public/video-section/video-5.png";
-import video6 from "../../../../public/video-section/video-6.png";
-import video7 from "../../../../public/video-section/video-7.png";
+import video1 from "../../../../public/video-section/video-1.webp";
+import video2 from "../../../../public/video-section/video-2.webp";
+import video3 from "../../../../public/video-section/video-3.webp";
+import video4 from "../../../../public/video-section/video-4.webp";
+import video5 from "../../../../public/video-section/video-5.webp";
+import video6 from "../../../../public/video-section/video-6.webp";
+import video7 from "../../../../public/video-section/video-7.webp";
+import video8 from "../../../../public/video-section/video-8.webp";
+import video9 from "../../../../public/video-section/video-9.webp";
+import video10 from "../../../../public/video-section/video-10.webp";
+import video11 from "../../../../public/video-section/video-11.webp";
+import video12 from "../../../../public/video-section/video-12.webp";
+import video13 from "../../../../public/video-section/video-13.webp";
+import video14 from "../../../../public/video-section/video-14.webp";
+import video15 from "../../../../public/video-section/video-15.webp";
+import video16 from "../../../../public/video-section/video-16.webp";
+import video17 from "../../../../public/video-section/video-17.webp";
+import video18 from "../../../../public/video-section/video-18.webp";
 
 const videoImages = [
   { id: 1, src: video1, alt: "Vidéo 1" },
@@ -24,6 +35,17 @@ const videoImages = [
   { id: 5, src: video5, alt: "Vidéo 5" },
   { id: 6, src: video6, alt: "Vidéo 6" },
   { id: 7, src: video7, alt: "Vidéo 7" },
+  { id: 8, src: video8, alt: "Vidéo 8" },
+  { id: 9, src: video9, alt: "Vidéo 9" },
+  { id: 10, src: video10, alt: "Vidéo 10" },
+  { id: 11, src: video11, alt: "Vidéo 11" },
+  { id: 12, src: video12, alt: "Vidéo 12" },
+  { id: 13, src: video13, alt: "Vidéo 13" },
+  { id: 14, src: video14, alt: "Vidéo 14" },
+  { id: 15, src: video15, alt: "Vidéo 15" },
+  { id: 16, src: video16, alt: "Vidéo 16" },
+  { id: 17, src: video17, alt: "Vidéo 17" },
+  { id: 18, src: video18, alt: "Vidéo 18" },
 ];
 
 export default function VideoSlider() {

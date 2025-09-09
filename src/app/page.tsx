@@ -5,6 +5,10 @@ import FormDevis from "./components/home/FormDevis";
 import Products from "./components/home/Products";
 import BannerDown from "./components/home/BannerDown";
 import Slider from "./components/home/Slider";
+import Image from "next/image";
+import imgGcf from "../../public/isolationimage.webp";
+import { TypingAnimation } from "./components/animation/typing-animation";
+import { BlurFade } from "./components/animation/blur-fade";
 
 export default function Home() {
   return (
@@ -16,28 +20,60 @@ export default function Home() {
       <BannerDown />
       <Slider />
       <FormDevis />
-      <section className="flex flex-col p-8 lg:px-32 py-20 2xl:px-80">
-        <h3 className="text-2xl font-bold after:content-[''] after:block after:w-10 after:h-[0.35rem] after:bg-primary after:mt-4">
-          Un accompagnement 100% personnalisée à chaque projet
-        </h3>
-        <p className="py-4 text-base font-kollektif">
-          Grâce à des équipes qualifiées et expérimentées, nous répondons aux
-          besoins des constructeurs, promoteurs, maîtres d’œuvre, entreprises
-          générales et artisans qui recherchent un partenaire fiable et réactif
-          pour leurs chantiers. Nous sommes certifiés Qualibat RGE, gage de
-          qualité et de conformité aux normes en vigueur. Cela garantit à nos
-          partenaires des prestations soignées, respectant les standards du
-          secteur et répondant aux attentes les plus exigeantes en termes de
-          performance énergétique et de durabilité.
-        </p>
-        <p className="text-base font-kollektif">
-          Notre organisation, pensée pour la sous-traitance, nous permet
-          d’intervenir efficacement sur des chantiers de toute taille, partout
-          en France. Nous mettons un point d’honneur à respecter les délais, les
-          contraintes techniques et les exigences de sécurité propres à chaque
-          projet.
-        </p>
-      </section>
+      <article className="flex flex-col lg:items-center lg:justify-center lg:px-40 xl:gap-14 lg:flex-row p-8 xl:px-40 lg:p-24 2xl:px-72">
+        <div className="lg:w-1/2 2xl:text-xl">
+          <h2 className="font-bold uppercase font-emOne mb-1">
+            <TypingAnimation
+              className="text-2xl lg:text-3xl 2xl:text-4xl"
+              duration={100}
+              startOnView={true}
+            >
+              Chez GENIE ISOL France,
+            </TypingAnimation>
+          </h2>
+          <BlurFade delay={1.5} duration={0.7} inView>
+            <h3 className="text-sm font-bold italic uppercase pb-4 2xl:text-xl after:content-[''] after:mt-2 after:block after:w-10 after:h-[0.35rem] after:bg-primary font-emOne">
+              nous faisons bien plus que réaliser vos travaux d’isolation.
+            </h3>
+          </BlurFade>
+          <BlurFade delay={1.7} duration={0.7} inView>
+            <p className="pb-4 font-kollektif lg:pt-6">
+              Nous vous apportons un accompagnement personnalisé, avec une
+              équipe dédiée au suivi de chantier pour garantir la qualité et la
+              sérénité à chaque étape. Grâce à notre CRM de suivi, vous disposez
+              d’une visibilité complète et en temps réel sur l’avancement de vos
+              projets.
+            </p>
+            <p className="pb-4 font-kollektif">
+              Entreprise qualifiée, nous respectons scrupuleusement l’ensemble
+              des critères techniques et réglementaires permettant l’accès aux
+              aides de l’État. Vous bénéficiez ainsi d’un partenaire fiable,
+              structuré et professionnel, qui vous assure des chantiers
+              maîtrisés, conformes et durables.
+            </p>
+            <p className="pb-4 font-kollektif">
+              Entreprise qualifiée, nous respectons scrupuleusement l’ensemble
+              des critères techniques et réglementaires permettant l’accès aux
+              aides de l’État. Vous bénéficiez ainsi d’un partenaire fiable,
+              structuré et professionnel, qui vous assure des chantiers
+              maîtrisés, conformes et durables.
+            </p>
+            <p className="pb-4 font-kollektif">
+              GENIE ISOL France, c’est la garantie d’une sous-traitance
+              d’isolation performante, transparente et tournée vers vos enjeux.
+            </p>
+          </BlurFade>
+        </div>
+        <div className="lg:w-1/3 lg:pl-16 relative">
+          <div className="relative z-10">
+            <Image
+              src={imgGcf}
+              alt="Génieclim france"
+              className="rounded-3xl border-2 border-primary shadow-xl lg:h-[28rem] lg:w-full object-cover"
+            />
+          </div>
+        </div>
+      </article>
     </>
   );
 }

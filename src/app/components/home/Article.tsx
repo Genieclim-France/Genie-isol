@@ -24,13 +24,18 @@ function Article() {
         <BlurFade delay={1.7} duration={0.7} inView>
           <p className="pb-4 font-kollektif lg:pt-6">
             Nous sommes une entreprise spécialisée dans l’isolation thermique
-            des bâtiments, et nous intervenons partout en France en tant que
-            partenaire sous-traitant auprès des professionnels du bâtiment.
-            Notre expertise couvre l’ensemble des solutions d’isolation :
-            Isolation des combles : soufflage, déroulé, isolation des rampants,
-            isolation des planchers bas et isolation thermique par l’extérieur
-            (ITE)
+            des maisons ou appartements, et nous intervenons partout en France
+            en tant que partenaire sous-traitant auprès des professionnels du
+            bâtiment. Notre expertise couvre l’ensemble des solutions
+            d’isolation :
           </p>
+          <ul className="list-disc list-inside font-kollektif pb-4 pl-10">
+            <li>
+              Isolation des combles : soufflage, déroulé, isolation des rampants
+            </li>
+            <li>Isolation des planchers bas</li>
+            <li>Isolation thermique par l'extérieur (ITE)</li>
+          </ul>
           <p className="pb-4 font-kollektif">
             Notre objectif est clair : devenir un partenaire de confiance,
             capable de vous accompagner durablement dans vos projets et de

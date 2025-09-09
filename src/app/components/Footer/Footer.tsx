@@ -13,9 +13,8 @@ function Footer() {
             GÉNIE ISOL FRANCE
           </h3>
           <p>
-            une équipe solide d&apos;experts techniques qui oeuvrent pour rendre
-            la rénovation énergétique plus sûre, plus accessible et à moindre
-            coût.
+            Des équipes spécialisées pour des chantiers maitrisés: l'isolation
+            en sous-traitance simplifiée.
           </p>
         </div>
         <div>
