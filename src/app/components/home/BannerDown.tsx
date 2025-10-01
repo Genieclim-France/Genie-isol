@@ -18,6 +18,17 @@ function BannerDown() {
       <ul className="lg:w-1/2 flex flex-col lg:flex-row gap-4 justify-center items-center pb-16 lg:pb-0">
         <li className="flex flex-col items-center [text-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)]">
           <p className="text-white text-6xl lg:text-5xl xl:text-6xl lg:leading-tight xl:leading-tight uppercase font-bold">
+            48H
+          </p>
+          <p className="text-white text-center font-emOne text-lg lg:text-sm px-4 lg:px-3 2xl:px-14">
+            délai d'intervention
+          </p>
+          <p className="text-white text-center font-emOne text-lg lg:text-sm px-4 lg:px-3 2xl:px-14">
+            partout en France
+          </p>
+        </li>
+        <li className="flex flex-col items-center [text-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)]">
+          <p className="text-white text-6xl lg:text-5xl xl:text-6xl lg:leading-tight xl:leading-tight uppercase font-bold">
             +2000
           </p>
           <p className="text-white text-center font-emOne text-lg lg:text-sm px-4 lg:px-3 2xl:px-14">
