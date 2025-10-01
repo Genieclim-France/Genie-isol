@@ -52,7 +52,7 @@ const Kollektif = localFont({
 export const metadata: Metadata = {
   title: "Génie Isol France",
   description:
-    "GENIE ISOL FRANCE est le spécialiste de la rénovation globale énergétique. Profitez de la rénovation de votre système de chauffage, de distribution d'eau chaude sanitaire mais également de votre isolation à prix mini.",
+    "GENIE ISOL FRANCE - Spécialiste de l'isolation thermique. Combles perdus, planchers bas, ITE. Entreprise qualifiée partout en France. Aides de l'État disponibles. Devis gratuit et suivi personnalisé.",
 };
 
 export default function RootLayout({
