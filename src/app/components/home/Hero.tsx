@@ -10,7 +10,7 @@ function Hero() {
               Votre partenaire
             </span>{" "}
             <span className="text-primary bg-tertiary rounded-full px-2 lg:px-5 text-nowrap [box-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)]">
-              sous-traitant d'isolation
+              sous-traitant isolation
             </span>
           </h1>
           <h2 className="text-white text-xl lg:text-4xl xl:text-5xl lg:leading-tight xl:leading-tight uppercase font-bold mb-8">
@@ -26,7 +26,13 @@ function Hero() {
               href="/#contact-form"
               className="btn xl:btn-lg bg-secondary border-2 border-transparent text-white text-md xl:text-lg font-bold uppercase mt-4 lg:mt-0 px-4 rounded-full hover:bg-hover hover:border-white shadow-lg"
             >
-              DEMANDEZ VOTRE DEVIS
+              DEVENIR PARTENAIRE
+            </Link>
+            <Link
+              href="/#contact-form"
+              className="btn xl:btn-lg bg-primary border-white border-2 text-white text-md xl:text-lg font-bold uppercase mt-4 lg:mt-0 px-4 rounded-full hover:bg-secondary hover:border-secondary shadow-lg"
+            >
+              RECEVOIR LA GRILLE DE TARIFICATON
             </Link>
           </div>
         </div>
