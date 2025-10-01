@@ -14,12 +14,7 @@ const nextConfig = {
     return [
       {
         source: "/erp/:path*",
-        destination: "http://genieisol-france.fr/erp/:path*",
-        permanent: true,
-      },
-      {
-        source: "/clients/:path*",
-        destination: "http://genieisol-france.fr/clients/:path*",
+        destination: "http://genieisol-france.fr/login.php",
         permanent: true,
       },
     ];
@@ -55,9 +50,6 @@ const nextConfig = {
     ];
   },
   reactStrictMode: true,
-  server: {
-    host: "0.0.0.0",
-  },
 };
 
 module.exports = nextConfig;
